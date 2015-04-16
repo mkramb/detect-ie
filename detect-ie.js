@@ -3,7 +3,7 @@
   // A short snippet for detecting versions of IE in JavaScript
   // without resorting to user-agent sniffing
   var ie = (function(){
-
+  var t = 1;
     var undef,
       v = 3,
       div = document.createElement('div'),
